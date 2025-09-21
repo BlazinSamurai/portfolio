@@ -1,0 +1,14 @@
+.navBar {
+}
+
+.navBar__container {
+  display: flex;
+}
+
+.navBar__text {
+  color: #fff;
+}
+
+.navBar__spacer {
+  color: #fff;
+}
