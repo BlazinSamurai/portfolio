@@ -5,6 +5,7 @@
 
 .navBar {
   display: flex;
+  padding-bottom: 38px;
 }
 
 .navBar__container {

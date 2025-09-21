@@ -13,40 +13,37 @@ p {
 }
 
 .home {
-  height: 87.5vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .home__background-container {
-  display: flex;
-  align-items: center;
-  height: 87.5vh;
-  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: clip;
 }
 
 .home__background-image {
-  position: absolute;
-  top: 38px;
-  left: 0px;
-  width: 55vw;
-  height: 90%;
+  height: 70vh;
 }
 
 .home__background-text {
   font-family: Tourney, sans-serif;
-  font-size: 29vw;
   color: #00ffff;
-  position: relative;
-  top: -42px;
-  left: 26px;
+  opacity: 20%;
+  width: 90%;
+  position: absolute;
+  top: 35%;
+  left: 40px;
+  font-size: 19vw;
 }
 
 .home__content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  top: -541px;
-  left: 70px;
+  padding-top: 38px;
+  width: 100%;
+  height: 100%;
 }
 
 .home__first-line {
@@ -55,6 +52,7 @@ p {
 .home__custom-text {
   font-family: JetsBrainsMono, serif, math;
   font-size: 35px;
+  color: #fff;
 }
 
 .home__second-line {
@@ -78,6 +76,7 @@ p {
 
 .home__custom-damianLavin {
   font-family: JetsBrainsMono, serif, math;
+  color: #fff;
 }
 
 .home__fourth-line {
