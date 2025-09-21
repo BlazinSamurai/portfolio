@@ -2,14 +2,13 @@ import { useState } from "react";
 
 import "./App.css";
 
-import NavBar from "../NavBar/NavBar";
-import Header from "../Header/Header";
+import Home from "../Home/Home";
 
 function App() {
   return (
     <div className="page">
       <div className="page__content">
-        <NavBar></NavBar>
+        <Home></Home>
       </div>
     </div>
   );

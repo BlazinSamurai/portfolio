@@ -1,11 +1,24 @@
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url(../../../fonts/JetBrains_Mono/static/JetBrainsMono-ExtraLightItalic.ttf);
+}
+
 .navBar {
+  display: flex;
 }
 
 .navBar__container {
   display: flex;
+  justify-content: flex-start;
+  column-gap: 15px;
+}
+
+.navBar__brackets {
+  color: #fff;
 }
 
 .navBar__text {
+  font-family: JetsBrainsMono, serif, math;
   color: #fff;
 }
 
