@@ -1,8 +1,11 @@
 import BackgroundWithLayout from "../BackgroundWithLayout/BackgroundWithLayout";
 
-function Home() {
+function Home({ setActiveSection }) {
   return (
-    <BackgroundWithLayout defaultBackgroundText="Home">
+    <BackgroundWithLayout
+      setActiveSection={setActiveSection}
+      defaultBackgroundText="Home"
+    >
       <div className="bckgnd-layout__first-line">
         <p className="bckgnd-layout__custom-text">Hello, I'm</p>
       </div>

@@ -4,10 +4,14 @@ import homeBackground from "../../images/Home-background.svg";
 
 import NavBar from "../NavBar/NavBar";
 
-function BackgroundWithLayout({ defaultBackgroundText, children }) {
+function BackgroundWithLayout({
+  setActiveSection,
+  defaultBackgroundText,
+  children,
+}) {
   return (
     <div className="bckgnd-layout">
-      <NavBar></NavBar>
+      <NavBar setActiveSection={setActiveSection} />
       <div className="bckgnd-layout__container">
         <img
           src={homeBackground}

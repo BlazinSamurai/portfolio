@@ -1,8 +1,11 @@
 import BackgroundWithLayout from "../BackgroundWithLayout/BackgroundWithLayout";
 
-function Projects() {
+function Projects({ setActiveSection }) {
   return (
-    <BackgroundWithLayout defaultBackgroundText="PROJECTS">
+    <BackgroundWithLayout
+      setActiveSection={setActiveSection}
+      defaultBackgroundText="PROJECTS"
+    >
       <div className="bckgnd-layout__custom-damianLavin">In Progress . . .</div>
     </BackgroundWithLayout>
   );

@@ -1,8 +1,11 @@
 import BackgroundWithLayout from "../BackgroundWithLayout/BackgroundWithLayout";
 
-function AboutMe() {
+function AboutMe({ setActiveSection }) {
   return (
-    <BackgroundWithLayout defaultBackgroundText="ABOUT ME">
+    <BackgroundWithLayout
+      setActiveSection={setActiveSection}
+      defaultBackgroundText="ABOUT ME"
+    >
       <div className="bckgnd-layout__custom-damianLavin">Loading . . .</div>
     </BackgroundWithLayout>
   );

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import "./App.css";
 
@@ -7,12 +7,24 @@ import Projects from "../Projects/Projects";
 import AboutMe from "../AboutMe/AboutMe";
 
 function App() {
+  const [activeSection, setActiveSection] = useState("home");
+
+  const renderSection = () => {
+    switch (activeSection) {
+      case "home":
+        return <Home setActiveSection={setActiveSection} />;
+      case "projects":
+        return <Projects setActiveSection={setActiveSection} />;
+      case "aboutMe":
+        return <AboutMe setActiveSection={setActiveSection} />;
+    }
+  };
+
   return (
     <div className="page">
       <div className="page__content">
-        <Home></Home>
-        {/* <Projects></Projects> */}
-        {/* <AboutMe></AboutMe> */}
+        {/* <Home setActiveSection={setActiveSection} /> */}
+        {renderSection()}
       </div>
     </div>
   );
