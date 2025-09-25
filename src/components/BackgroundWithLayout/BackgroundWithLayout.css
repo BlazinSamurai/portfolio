@@ -23,6 +23,8 @@ p {
   width: 100%;
   height: 100%;
   overflow: clip;
+  position: fixed;
+  top: 60px;
 }
 
 .bckgnd-layout__image {
@@ -35,11 +37,12 @@ p {
   opacity: 5%;
   width: 90%;
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 40px;
   font-size: 19vw;
 }
 
+/* Home Section Styles */
 .bckgnd-layout__main-content {
   width: 90%;
   position: absolute;
@@ -85,4 +88,65 @@ p {
 .bckgnd-layout__fourth-line {
   display: flex;
   opacity: 20%;
+}
+
+/* Project Section Styles */
+.bckgnd-layout__projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  padding: 0;
+  gap: 20px;
+  list-style: none;
+  position: absolute;
+  top: -100px;
+  left: 20px;
+}
+
+.bckgnd-layout__project {
+  color: #fff;
+  width: 400px;
+  height: 278px;
+  /* border: 1px solid #00ffff; */
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bckgnd-layout__project-img-cont {
+  width: 100%;
+  height: 100%;
+}
+
+.bckgnd-layout__project-img {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: transform 1s ease-in-out;
+}
+
+.bckgnd-layout__project-content {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  z-index: 1;
+  transition: transform 2s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.bckgnd-layout__project:hover .bckgnd-layout__project-img {
+  transform: scaleY(0.5) translate(0, -50%);
+}
+
+.bckgnd-layout__project:hover .bckgnd-layout__project-content {
+  transform: translate(0, -150%);
+  opacity: 1;
 }

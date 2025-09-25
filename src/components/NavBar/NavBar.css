@@ -21,6 +21,20 @@
 .navBar__text {
   font-family: JetsBrainsMono, serif, math;
   color: #fff;
+  border: none;
+  background: none;
+}
+
+.navBar__text:hover {
+  cursor: pointer;
+}
+
+.navBar__text-ends:hover {
+  color: #00ffff;
+}
+
+.navBar__text-projects:hover {
+  color: #00bfff;
 }
 
 .navBar__spacer {

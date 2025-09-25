@@ -22,10 +22,7 @@ function App() {
 
   return (
     <div className="page">
-      <div className="page__content">
-        {/* <Home setActiveSection={setActiveSection} /> */}
-        {renderSection()}
-      </div>
+      <div className="page__content">{renderSection()}</div>
     </div>
   );
 }
