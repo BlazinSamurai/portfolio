@@ -12,6 +12,7 @@ function BackgroundWithLayout({
   return (
     <div className="bckgnd-layout">
       <NavBar setActiveSection={setActiveSection} />
+
       <div className="bckgnd-layout__container">
         <img
           src={homeBackground}

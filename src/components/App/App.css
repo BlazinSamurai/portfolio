@@ -1,5 +1,25 @@
-/* .page {
+.page__squares {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  top: -400px;
+  left: -400px;
 }
 
-.page__content {
-} */
+.page__lightBlue {
+  position: absolute;
+  left: 45%;
+}
+
+.page__white {
+  position: absolute;
+  top: -0.5%;
+  left: 45%;
+}
+
+.page__neon {
+  position: absolute;
+  top: -1%;
+  left: 45%;
+}
