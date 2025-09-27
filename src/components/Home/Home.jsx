@@ -1,4 +1,5 @@
 import BackgroundWithLayout from "../BackgroundWithLayout/BackgroundWithLayout";
+import Footer from "../Footer/Footer";
 
 function Home({ setActiveSection }) {
   return (
@@ -18,7 +19,7 @@ function Home({ setActiveSection }) {
         <p className="bckgnd-layout__custom-text">"{">"}</p>
       </div>
       <div className="bckgnd-layout__third-line">
-        <span className="bckgnd-layout__custom-damianLavin">Damian Lavin</span>
+        <h1 className="bckgnd-layout__custom-damianLavin">Damian Lavin</h1>
       </div>
       <div className="bckgnd-layout__fourth-line">
         <p className="bckgnd-layout__custom-text">{"</"}</p>
@@ -26,6 +27,7 @@ function Home({ setActiveSection }) {
         <p className="bckgnd-layout__custom-text">{">"}</p>
       </div>
       <p className="bckgnd-layout__custom-text">Welcome to my Portfolio!</p>
+      <Footer />
     </BackgroundWithLayout>
   );
 }

@@ -42,7 +42,10 @@ p {
   font-size: 19vw;
 }
 
-/* Home Section Styles */
+/* 
+* Home Section Styles 
+*/
+
 .bckgnd-layout__main-content {
   width: 90%;
   position: absolute;
@@ -54,7 +57,7 @@ p {
 }
 
 .bckgnd-layout__custom-text {
-  font-family: JetsBrainsMono, serif, math;
+  font-family: JetBrainsMono, serif, math;
   font-size: 35px;
   color: #fff;
 }
@@ -80,9 +83,10 @@ p {
 }
 
 .bckgnd-layout__custom-damianLavin {
-  font-family: JetsBrainsMono, serif, math;
+  font-family: JetBrainsMono, serif, math;
   color: #fff;
-  font-size: 14vw;
+  margin: 0;
+  font-size: 140px;
 }
 
 .bckgnd-layout__fourth-line {
@@ -90,14 +94,16 @@ p {
   opacity: 20%;
 }
 
-/* Project Section Styles */
+/* 
+* Project Section Styles 
+*/
+
 .bckgnd-layout__projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 80%;
   padding: 0;
   gap: 20px;
   list-style: none;
@@ -109,7 +115,7 @@ p {
 .bckgnd-layout__project {
   color: #fff;
   width: 400px;
-  height: 278px;
+  height: 250px;
   /* border: 1px solid #00ffff; */
   overflow: hidden;
   cursor: pointer;
@@ -139,7 +145,7 @@ p {
   opacity: 0;
   z-index: 1;
   transition: transform 2s ease-in-out;
-  transition: opacity 1.5s ease-in-out;
+  transition: opacity 2.9s ease-in-out;
 }
 
 .bckgnd-layout__project:hover .bckgnd-layout__project-img {
@@ -147,6 +153,64 @@ p {
 }
 
 .bckgnd-layout__project:hover .bckgnd-layout__project-content {
-  transform: translate(0, -150%);
+  transform: translate(0, -100%);
   opacity: 1;
+}
+
+/*
+* About Me Styles
+*/
+
+.bckgnd-layout__text-about {
+  font-size: 18vw;
+}
+
+.bckgnd-layout__custom-blue {
+  font-family: JetBrainsMono, serif, math;
+  color: #00bfff;
+  font-size: 30px;
+}
+
+.bckgnd-layout__custom-neon {
+  font-family: JetBrainsMono, serif, math;
+  color: #00ffff;
+  font-size: 30px;
+}
+
+.bckgnd-layout__about-damian {
+  font-family: JetBrainsMono, serif, math;
+  color: #fff;
+  font-size: 104px;
+  margin: 0;
+}
+
+.bckgnd-layout__titles {
+  font-family: JetBrainsMono, serif, math;
+  color: #fff;
+  font-size: 50px;
+}
+
+.bckgnd-layout__education {
+  margin: 52px 0 41px;
+}
+
+.bckgnd-layout__skills {
+  margin-bottom: 40px;
+}
+
+.bckgnd-layout__columns {
+  display: flex;
+  column-gap: 53px;
+}
+
+.bckgnd-layout__aboutMe {
+  width: 50%;
+}
+
+.bckgnd-layout__jobs {
+  width: 50%;
+}
+
+.bckgnd-layout__experience {
+  margin-bottom: 93px;
 }

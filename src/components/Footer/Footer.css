@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Tourney";
+  src: url(../../../fonts/Tourney/static/Tourney-LightItalic.ttf);
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  font-family: Tourney, sans-serif;
+  color: #00ffff;
+  align-content: center;
+}

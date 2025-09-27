@@ -1,4 +1,5 @@
 import BackgroundWithLayout from "../BackgroundWithLayout/BackgroundWithLayout";
+import Footer from "../Footer/Footer";
 
 import RandomImg from "../../images/home_page.png";
 
@@ -31,8 +32,13 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3>WTWR</h3>
-            <p>Some OTHER Other other description . . . .</p>
+            <h3>"What to Wear"{"(WTWR)"}</h3>
+            <p>
+              A site to help the user decide what to wear depending on the
+              temperature in their location. Feature include: Adding/removing
+              clothes, liking items, categorizing items and changing between
+              Fahrenheit to Celsius.
+            </p>
           </div>
         </li>
         <li className="bckgnd-layout__project">
@@ -44,8 +50,12 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3>Around the World</h3>
-            <p>Some more descriptions to add . . .</p>
+            <h3>Around the US</h3>
+            <p>
+              ‘Social media app’ to display: a user's profile picture, a bio
+              with information about the user and a body of pictures of places
+              the user has been.{" "}
+            </p>
           </div>
         </li>
         <li className="bckgnd-layout__project">
@@ -58,9 +68,14 @@ function Projects({ setActiveSection }) {
           </div>
           <div className="bckgnd-layout__project-content">
             <h3>CoffeShop</h3>
-            <p>More and more descriptions . . . </p>
+            <p>
+              Landing page for a potential coffeeshop. Features include:
+              navigation, two YouTube recipe videos, book a table section, and a
+              contact section with information about the coffee shop.
+            </p>
           </div>
         </li>
+        <Footer />
       </ul>
     </BackgroundWithLayout>
   );
