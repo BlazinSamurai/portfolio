@@ -1,3 +1,66 @@
+@keyframes neon-flicker {
+  0% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 50%;
+  }
+  40% {
+    opacity: 50%;
+  }
+  60% {
+    opacity: 50%;
+  }
+  80% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes white-flicker {
+  0% {
+    opacity: 50%;
+  }
+  20% {
+    opacity: 100%;
+  }
+  40% {
+    opacity: 25%;
+  }
+  60% {
+    opacity: 25%;
+  }
+  80% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 50%;
+  }
+}
+
+@keyframes lightBlue-flicker {
+  0% {
+    opacity: 25%;
+  }
+  20% {
+    opacity: 50%;
+  }
+  40% {
+    opacity: 100%;
+  }
+  60% {
+    opacity: 100%;
+  }
+  80% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 25%;
+  }
+}
+
 .page__squares {
   width: 100vw;
   height: 100vh;
@@ -10,16 +73,19 @@
 .page__lightBlue {
   position: absolute;
   left: 45%;
+  animation: lightBlue-flicker 5s ease-in-out 0s infinite;
 }
 
 .page__white {
   position: absolute;
   top: -0.5%;
   left: 45%;
+  animation: white-flicker 5s ease-in-out 0s infinite;
 }
 
 .page__neon {
   position: absolute;
   top: -1%;
   left: 45%;
+  animation: neon-flicker 5s ease-in-out 0s infinite;
 }
