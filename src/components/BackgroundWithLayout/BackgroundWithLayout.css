@@ -57,10 +57,6 @@ p {
   font-size: 19vw;
 }
 
-/* 
-* Home Section Styles 
-*/
-
 .bckgnd-layout__main-content {
   width: 90%;
   position: absolute;
@@ -71,8 +67,9 @@ p {
   row-gap: 15px;
 }
 
-.bckgnd-layout__about-main {
-}
+/* 
+* Home Section Styles 
+*/
 
 .bckgnd-layout__custom-text {
   font-family: JetBrainsMono, serif, math;
@@ -134,7 +131,6 @@ p {
   color: #fff;
   width: 400px;
   height: 250px;
-  /* border: 1px solid #00ffff; */
   overflow: hidden;
   cursor: pointer;
 }
@@ -231,4 +227,108 @@ p {
 
 .bckgnd-layout__experience {
   margin-bottom: 93px;
+}
+
+@media screen and (max-width: 425px) {
+  .bckgnd-layout__container {
+    left: 5px;
+  }
+
+  .bckgnd-layout__main-content {
+    left: -10px;
+    row-gap: 5px;
+  }
+
+  /* Home Styles */
+  .bckgnd-layout__custom-text {
+    font-size: 25px;
+  }
+
+  .bckgnd-layout__custom-tag {
+    font-size: 25px;
+  }
+
+  .bckgnd-layout__custom-className {
+    font-size: 25px;
+  }
+
+  .bckgnd-layout__custom-name {
+    font-size: 25px;
+  }
+
+  .bckgnd-layout__custom-damianLavin {
+    font-size: 75px;
+  }
+
+  /* 
+  * Project Section Styles 
+  */
+
+  .bckgnd-layout__projects {
+    gap: 35px;
+  }
+
+  .bckgnd-layout__project {
+    height: 100%;
+    overflow: visible;
+  }
+
+  .bckgnd-layout__project-img {
+    transition: none;
+  }
+
+  .bckgnd-layout__project-content {
+    opacity: 100%;
+    transition: none;
+  }
+
+  .bckgnd-layout__project-title {
+    margin: 0;
+  }
+
+  .bckgnd-layout__project:hover .bckgnd-layout__project-img {
+    transform: none;
+  }
+
+  .bckgnd-layout__project:hover .bckgnd-layout__project-content {
+    transform: none;
+  }
+
+  /*
+  * About Me Styles
+  */
+
+  .bckgnd-layout__about-damian {
+    font-size: 65px;
+  }
+
+  .bckgnd-layout__titles {
+    font-size: 28px;
+  }
+
+  .bckgnd-layout__education {
+    margin: 15px 0;
+  }
+
+  .bckgnd-layout__columns {
+    flex-direction: column-reverse;
+    row-gap: 15px;
+  }
+
+  .bckgnd-layout__aboutMe {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .bckgnd-layout__about-me-mobile {
+    font-size: 13px;
+  }
+
+  .bckgnd-layout__jobs {
+    width: 100%;
+  }
+
+  .bckgnd-layout__experience {
+    margin-bottom: 15px;
+  }
 }

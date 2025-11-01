@@ -14,7 +14,7 @@ function Home({ setActiveSection }) {
         <p className="bckgnd-layout__custom-text">{" <"}</p>
         <span className="bckgnd-layout__custom-tag">h1 </span>
         <span className="bckgnd-layout__custom-className"> className </span>
-        <p className="bckgnd-layout__custom-text"> = "</p>
+        <p className="bckgnd-layout__custom-text">="</p>
         <span className="bckgnd-layout__custom-name">name</span>
         <p className="bckgnd-layout__custom-text">"{">"}</p>
       </div>

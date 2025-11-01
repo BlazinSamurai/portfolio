@@ -29,15 +29,7 @@ function BackgroundWithLayout({
           {defaultBackgroundText}
         </p>
       </div>
-      <div
-        className={
-          `${defaultBackgroundText === "ABOUT ME"}`
-            ? "bckgnd-layout__main-content bckgnd-layout__about-content"
-            : "bckgnd-layout__main-content"
-        }
-      >
-        {children}
-      </div>
+      <div className="bckgnd-layout__main-content">{children}</div>
     </div>
   );
 }

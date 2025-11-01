@@ -40,3 +40,19 @@
 .navBar__spacer {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  .navBar__container {
+    column-gap: 5px;
+  }
+
+  .navBar__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navBar__text {
+    font-size: 10px;
+  }
+}

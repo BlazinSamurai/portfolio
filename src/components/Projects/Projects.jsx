@@ -19,7 +19,7 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3>Paper Plane:</h3>
+            <h3 className="bckgnd-layout__project-title">Paper Plane:</h3>
             <p>Some Description . . .</p>
           </div>
         </li>
@@ -32,7 +32,9 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3>"What to Wear"{"(WTWR)"}</h3>
+            <h3 className="bckgnd-layout__project-title">
+              "What to Wear"{"(WTWR)"}
+            </h3>
             <p>
               A site to help the user decide what to wear depending on the
               temperature in their location. Feature include: Adding/removing
@@ -50,7 +52,7 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3>Around the US</h3>
+            <h3 className="bckgnd-layout__project-title">Around the US</h3>
             <p>
               ‘Social media app’ to display: a user's profile picture, a bio
               with information about the user and a body of pictures of places
@@ -67,7 +69,7 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3>CoffeShop</h3>
+            <h3 className="bckgnd-layout__project-title">CoffeShop</h3>
             <p>
               Landing page for a potential coffeeshop. Features include:
               navigation, two YouTube recipe videos, book a table section, and a

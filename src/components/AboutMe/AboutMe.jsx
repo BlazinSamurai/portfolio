@@ -40,13 +40,15 @@ function AboutMe({ setActiveSection }) {
             <div className="bckgnd-layout__custom-neon">Experience:</div>
             <div className="bckgnd-layout__custom-blue">
               Back-end Developer
-              <span className="bckgnd-layout__custom-text">
+              <span className="bckgnd-layout__custom-text bckgnd-layout__custom-mobile-text">
                 {" "}
                 - Partner Pipeline
               </span>
             </div>
-            <div className="bckgnd-layout__custom-text">Internship</div>
-            <div className="bckgnd-layout__custom-text">
+            <div className="bckgnd-layout__custom-text bckgnd-layout__custom-mobile-text">
+              Internship
+            </div>
+            <div className="bckgnd-layout__custom-text bckgnd-layout__custom-mobile-text">
               July 2025 - August 2025
             </div>
           </div>
@@ -80,7 +82,7 @@ function AboutMe({ setActiveSection }) {
 
         <div className="bckgnd-layout__aboutMe">
           <div className="bckgnd-layout__custom-neon">About Me:</div>
-          <p className="bckgnd-layout__custom-text">
+          <p className="bckgnd-layout__custom-text bckgnd-layout__about-me-mobile">
             Software Engineer with transferable skill to be used in building
             responsive and secure websites. Utilizing attention to detail in
             HTML, CSS, JavaScript, and modern development tools like Git and

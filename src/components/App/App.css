@@ -61,9 +61,6 @@
   }
 }
 
-.page__content {
-}
-
 .page__squares {
   width: 989px;
   height: 460px;
@@ -92,4 +89,23 @@
   top: -487px;
   left: -12px;
   animation: neon-flicker 5s ease-in-out 0s infinite;
+}
+
+@media screen and (max-width: 425px) {
+  .page__squares {
+    rotate: 90deg;
+    right: -642px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .page__squares {
+    right: -668px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__squares {
+    right: -722px;
+  }
 }
