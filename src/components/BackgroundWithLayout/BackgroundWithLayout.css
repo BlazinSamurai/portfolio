@@ -132,7 +132,6 @@ p {
   width: 400px;
   height: 250px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .bckgnd-layout__project-img-cont {
@@ -160,6 +159,22 @@ p {
   z-index: 1;
   transition: transform 2s ease-in-out;
   transition: opacity 2.9s ease-in-out;
+}
+
+.bckgnd-layout__project-text {
+  font-family: JetBrainsMono, serif, math;
+}
+
+.bckgnd-layout__project-anchors {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+
+.bckgnd-layout__project-anchors:hover {
+  color: #00ffff;
 }
 
 .bckgnd-layout__project:hover .bckgnd-layout__project-img {
@@ -283,7 +298,9 @@ p {
   }
 
   .bckgnd-layout__project-title {
-    margin: 0;
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
   }
 
   .bckgnd-layout__project:hover .bckgnd-layout__project-img {

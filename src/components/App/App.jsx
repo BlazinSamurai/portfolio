@@ -2,9 +2,9 @@ import { useState } from "react";
 
 import "./App.css";
 
-import neonSquares from "../../images/Neon-square.svg";
-import whiteSquares from "../../images/White-square.svg";
-import lightBlueSquares from "../../images/LightBlue-square.svg";
+import neonSquares from "../../images/squares/Neon-square.svg";
+import whiteSquares from "../../images/squares/White-square.svg";
+import lightBlueSquares from "../../images/squares/LightBlue-square.svg";
 
 import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
