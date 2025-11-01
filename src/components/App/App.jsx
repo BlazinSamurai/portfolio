@@ -2,9 +2,9 @@ import { useState } from "react";
 
 import "./App.css";
 
-import neonSquares from "../../images/Neon-squares.svg";
-import whiteSquares from "../../images/White-squares.svg";
-import lightBlueSquares from "../../images/LightBlue-squares.svg";
+import neonSquares from "../../images/Neon-square.svg";
+import whiteSquares from "../../images/White-square.svg";
+import lightBlueSquares from "../../images/LightBlue-square.svg";
 
 import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
@@ -27,13 +27,13 @@ function App() {
   return (
     <div className="page">
       <div className="page__content">
+        {renderSection()}
+
         <div className="page__squares">
           <img src={lightBlueSquares} alt="" className="page__lightBlue" />
           <img src={whiteSquares} alt="" className="page__white" />
           <img src={neonSquares} alt="" className="page__neon" />
         </div>
-
-        {renderSection()}
       </div>
     </div>
   );

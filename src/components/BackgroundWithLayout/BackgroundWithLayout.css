@@ -71,6 +71,9 @@ p {
   row-gap: 15px;
 }
 
+.bckgnd-layout__about-main {
+}
+
 .bckgnd-layout__custom-text {
   font-family: JetBrainsMono, serif, math;
   font-size: 35px;

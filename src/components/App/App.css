@@ -61,31 +61,35 @@
   }
 }
 
+.page__content {
+}
+
 .page__squares {
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
+  width: 989px;
+  height: 460px;
+  overflow: clip;
   position: absolute;
-  top: -400px;
-  left: -400px;
+  top: -126px;
+  right: -429px;
+  rotate: 38deg;
+  z-index: -1;
 }
 
 .page__lightBlue {
   position: absolute;
-  left: 45%;
   animation: lightBlue-flicker 5s ease-in-out 0s infinite;
 }
 
 .page__white {
-  position: absolute;
-  top: -0.5%;
-  left: 45%;
+  position: relative;
+  top: -6px;
+  left: -6px;
   animation: white-flicker 5s ease-in-out 0s infinite;
 }
 
 .page__neon {
-  position: absolute;
-  top: -1%;
-  left: 45%;
+  position: relative;
+  top: -487px;
+  left: -12px;
   animation: neon-flicker 5s ease-in-out 0s infinite;
 }
