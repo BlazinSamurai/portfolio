@@ -28,16 +28,36 @@ function AboutMe({ setActiveSection }) {
         <p className="bckgnd-layout__custom-text">Aug. 2023 - Aug. 2025</p>
       </div>
       <div className="bckgnd-layout__skills">
-        <div className="bckgnd-layout__custom-neon">Skills:</div>
+        <div className="bckgnd-layout__custom-neon">
+          Languages & Frameworks:
+        </div>
         <p className="bckgnd-layout__custom-text">
-          Communication | Problem Solving | Teamwork | Adaptable | Hard Worker |
-          Typing
+          HTML5 | CSS3 | React | Node.js | Webpack | REST APIs, Babel
+        </p>
+        <div className="bckgnd-layout__custom-neon">TOOLS & PLATFORMS:</div>
+        <p className="bckgnd-layout__custom-text">
+          Git | GitHub | Figma | Google Cloud | MongoDB
+        </p>
+        <div className="bckgnd-layout__custom-neon">WORKFLOW:</div>
+        <p className="bckgnd-layout__custom-text">
+          UI/UX principles | Object-Oriented Programming | Debugging
+        </p>
+        <div className="bckgnd-layout__custom-neon">SOFTSKILLS:</div>
+        <p className="bckgnd-layout__custom-text">
+          Leadership |Communication | Problem-Solving strategies | Attention to
+          detail | Time efficiency | Adaptable
         </p>
       </div>
       <div className="bckgnd-layout__columns">
         <div className="bckgnd-layout__jobs">
           <div className="bckgnd-layout__experience">
             <div className="bckgnd-layout__custom-neon">Experience:</div>
+            <div className="bckgnd-layout__custom-blue">
+              Freelance Developer
+            </div>
+            <div className="bckgnd-layout__custom-text bckgnd-layout__custom-mobile-text">
+              September 2024 - Current
+            </div>
             <div className="bckgnd-layout__custom-blue">
               Back-end Developer
               <span className="bckgnd-layout__custom-text bckgnd-layout__custom-mobile-text">
@@ -55,6 +75,20 @@ function AboutMe({ setActiveSection }) {
 
           <div className="bckgnd-layout__prevRoles">
             <div className="bckgnd-layout__custom-neon">Previous Roles:</div>
+            <div className="bckgnd-layout__custom-blue">
+              Delievery Driver{" "}
+              <span className="bckgnd-layout__custom-text">
+                {" "}
+                - Amazon/Linked Logistics
+              </span>
+            </div>
+            <div className="bckgnd-layout__custom-text">
+              Seasonal Employment
+            </div>
+            <div className="bckgnd-layout__custom-text">
+              October 2024 - May 2025
+            </div>
+
             <div className="bckgnd-layout__custom-blue">
               USDA Inspector{" "}
               <span className="bckgnd-layout__custom-text"> - C.A.S.S</span>

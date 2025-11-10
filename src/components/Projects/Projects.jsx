@@ -45,9 +45,14 @@ function Projects({ setActiveSection }) {
             />
           </div>
           <div className="bckgnd-layout__project-content">
-            <h3 className="bckgnd-layout__project-text">
+            <a
+              href="https://whattowear.csproject.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bckgnd-layout__project-text bckgnd-layout__project-anchors"
+            >
               "What to Wear"{"(WTWR)"}
-            </h3>
+            </a>
             <p className="bckgnd-layout__project-text">
               A digital closet application where a user can sort through their
               clothing cards depending on what the temperature is.

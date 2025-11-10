@@ -9,6 +9,7 @@ import lightBlueSquares from "../../images/squares/LightBlue-square.svg";
 import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
 import AboutMe from "../AboutMe/AboutMe";
+import Links from "../Links/Links";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -21,6 +22,8 @@ function App() {
         return <Projects setActiveSection={setActiveSection} />;
       case "aboutMe":
         return <AboutMe setActiveSection={setActiveSection} />;
+      case "links":
+        return <Links setActiveSection={setActiveSection} />;
     }
   };
 

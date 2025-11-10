@@ -163,6 +163,7 @@ p {
 
 .bckgnd-layout__project-text {
   font-family: JetBrainsMono, serif, math;
+  max-height: 75px;
 }
 
 .bckgnd-layout__project-anchors {
@@ -178,7 +179,7 @@ p {
 }
 
 .bckgnd-layout__project:hover .bckgnd-layout__project-img {
-  transform: scaleY(0.5) translate(0, -50%);
+  transform: scaleY(0.5) translate(0, -60%);
 }
 
 .bckgnd-layout__project:hover .bckgnd-layout__project-content {
@@ -244,6 +245,43 @@ p {
   margin-bottom: 93px;
 }
 
+/*
+* Links Styles
+*/
+
+.bckgnd-layout__links-container {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.bckgnd-layout__links-icon {
+  max-width: 20px;
+  max-height: 25px;
+}
+
+.bckgnd-layout__links-name {
+  font-family: Tourney, sans-serif;
+  color: #00ffff;
+  font-size: 19px;
+  align-content: center;
+  cursor: default;
+}
+
+.bckgnd-layout__links-anchors {
+  font-family: JetBrainsMono, serif, math;
+  max-height: 75px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+  padding-bottom: 0;
+}
+
+.bckgnd-layout__links-anchors:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 425px) {
   .bckgnd-layout__container {
     left: 5px;
@@ -303,6 +341,11 @@ p {
     text-decoration: none;
   }
 
+  .bckgnd-layout__project-text {
+    max-height: 55px;
+    font-size: 12px;
+  }
+
   .bckgnd-layout__project:hover .bckgnd-layout__project-img {
     transform: none;
   }
@@ -347,5 +390,13 @@ p {
 
   .bckgnd-layout__experience {
     margin-bottom: 15px;
+  }
+
+  /*
+* Links Styles
+*/
+
+  .bckgnd-layout__links-anchors {
+    font-size: 13px;
   }
 }

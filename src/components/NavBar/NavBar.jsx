@@ -25,6 +25,13 @@ function NavBar({ setActiveSection }) {
         >
           About Me
         </button>
+        <p className="navBar__spacer"> | </p>
+        <button
+          className="navBar__text navBar__text-projects"
+          onClick={() => setActiveSection("links")}
+        >
+          Links
+        </button>
         <p className="navBar__brackets">{"}"}</p>
       </div>
     </div>
