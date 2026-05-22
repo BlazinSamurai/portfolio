@@ -23,7 +23,7 @@ function Projects({ setActiveSection }) {
           </div>
           <div className="bckgnd-layout__project-content">
             <a
-              href="https://paperplane.csproject.org"
+              href="https://paper-plane-chi.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="bckgnd-layout__project-text bckgnd-layout__project-anchors"
@@ -46,7 +46,7 @@ function Projects({ setActiveSection }) {
           </div>
           <div className="bckgnd-layout__project-content">
             <a
-              href="https://whattowear.csproject.org"
+              href="https://wtwr-ten.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="bckgnd-layout__project-text bckgnd-layout__project-anchors"
